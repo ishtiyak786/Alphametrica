@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D203549426739FCD00B1779E /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D203549326739FCD00B1779E /* Lato-Bold.ttf */; };
+		D20354962673A3FF00B1779E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D20354952673A3FF00B1779E /* Roboto-Bold.ttf */; };
+		D20354982673BE2600B1779E /* signUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20354972673BE2600B1779E /* signUpCell.swift */; };
+		D25613BD26749BC30058AEEB /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25613BC26749BC30058AEEB /* Validation.swift */; };
+		D25613C02674A7720058AEEB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25613BF2674A7720058AEEB /* HomeVC.swift */; };
+		D288EF102672F8540073F8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF0F2672F8540073F8A8 /* AppDelegate.swift */; };
+		D288EF122672F8540073F8A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF112672F8540073F8A8 /* SceneDelegate.swift */; };
+		D288EF142672F8540073F8A8 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF132672F8540073F8A8 /* SplashVC.swift */; };
+		D288EF172672F8540073F8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D288EF152672F8540073F8A8 /* Main.storyboard */; };
+		D288EF192672F8560073F8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D288EF182672F8560073F8A8 /* Assets.xcassets */; };
+		D288EF1C2672F8560073F8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D288EF1A2672F8560073F8A8 /* LaunchScreen.storyboard */; };
+		D288EF3D267308CA0073F8A8 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D288EF32267308CA0073F8A8 /* Lato-Regular.ttf */; };
+		D288EF4626730A400073F8A8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF4526730A400073F8A8 /* Extension.swift */; };
+		D288EF5226730D000073F8A8 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D288EF4926730D000073F8A8 /* Merriweather-Regular.ttf */; };
+		D288EF6A26731BBB0073F8A8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D288EF5D26731BBB0073F8A8 /* Roboto-Regular.ttf */; };
+		D288EF782673242E0073F8A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF772673242E0073F8A8 /* LoginVC.swift */; };
+		D288EF7B267355EA0073F8A8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF7A267355EA0073F8A8 /* SignUpVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D203549326739FCD00B1779E /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		D20354952673A3FF00B1779E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D20354972673BE2600B1779E /* signUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpCell.swift; sourceTree = "<group>"; };
+		D25613BC26749BC30058AEEB /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		D25613BF2674A7720058AEEB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D288EF0C2672F8540073F8A8 /* Alphametrica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alphametrica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D288EF0F2672F8540073F8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D288EF112672F8540073F8A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D288EF132672F8540073F8A8 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		D288EF162672F8540073F8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D288EF182672F8560073F8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D288EF1B2672F8560073F8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D288EF1D2672F8560073F8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D288EF32267308CA0073F8A8 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		D288EF4526730A400073F8A8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D288EF4926730D000073F8A8 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		D288EF5D26731BBB0073F8A8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D288EF772673242E0073F8A8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D288EF7A267355EA0073F8A8 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D288EF092672F8540073F8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25613BB26749BB00058AEEB /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				D25613BC26749BC30058AEEB /* Validation.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		D25613BE2674A7500058AEEB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D25613BF2674A7720058AEEB /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D288EF032672F8540073F8A8 = {
+			isa = PBXGroup;
+			children = (
+				D288EF0E2672F8540073F8A8 /* Alphametrica */,
+				D288EF0D2672F8540073F8A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D288EF0D2672F8540073F8A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF0C2672F8540073F8A8 /* Alphametrica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D288EF0E2672F8540073F8A8 /* Alphametrica */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF2A267308A20073F8A8 /* RequiredFiles */,
+				D288EF252672F8DF0073F8A8 /* AppDelegate */,
+				D288EF262672F8F30073F8A8 /* MVC */,
+				D288EF242672F8D40073F8A8 /* Assets */,
+				D288EF232672F8B40073F8A8 /* SupportingFiles */,
+			);
+			path = Alphametrica;
+			sourceTree = "<group>";
+		};
+		D288EF232672F8B40073F8A8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF1D2672F8560073F8A8 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D288EF242672F8D40073F8A8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF182672F8560073F8A8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D288EF252672F8DF0073F8A8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF112672F8540073F8A8 /* SceneDelegate.swift */,
+				D288EF0F2672F8540073F8A8 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D288EF262672F8F30073F8A8 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF292672F9170073F8A8 /* Controller */,
+				D288EF282672F90F0073F8A8 /* View */,
+				D288EF272672F9040073F8A8 /* Model */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		D288EF272672F9040073F8A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D288EF282672F90F0073F8A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF1A2672F8560073F8A8 /* LaunchScreen.storyboard */,
+				D288EF152672F8540073F8A8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D288EF292672F9170073F8A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D25613BE2674A7500058AEEB /* Home */,
+				D288EF79267355D60073F8A8 /* SignUp */,
+				D288EF762673240D0073F8A8 /* Login */,
+				D288EF75267324030073F8A8 /* Splash */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D288EF2A267308A20073F8A8 /* RequiredFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D25613BB26749BB00058AEEB /* Validation */,
+				D288EF43267309F40073F8A8 /* Extension */,
+				D288EF2B267308AF0073F8A8 /* Fonts */,
+			);
+			path = RequiredFiles;
+			sourceTree = "<group>";
+		};
+		D288EF2B267308AF0073F8A8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF5A26731BBB0073F8A8 /* Roboto */,
+				D288EF4726730D000073F8A8 /* Merriweather */,
+				D288EF2C267308CA0073F8A8 /* Lato */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D288EF2C267308CA0073F8A8 /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF32267308CA0073F8A8 /* Lato-Regular.ttf */,
+				D203549326739FCD00B1779E /* Lato-Bold.ttf */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
+		D288EF43267309F40073F8A8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF4526730A400073F8A8 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D288EF4726730D000073F8A8 /* Merriweather */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF4926730D000073F8A8 /* Merriweather-Regular.ttf */,
+			);
+			path = Merriweather;
+			sourceTree = "<group>";
+		};
+		D288EF5A26731BBB0073F8A8 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF5D26731BBB0073F8A8 /* Roboto-Regular.ttf */,
+				D20354952673A3FF00B1779E /* Roboto-Bold.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		D288EF75267324030073F8A8 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF132672F8540073F8A8 /* SplashVC.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		D288EF762673240D0073F8A8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF772673242E0073F8A8 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D288EF79267355D60073F8A8 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF7A267355EA0073F8A8 /* SignUpVC.swift */,
+				D20354972673BE2600B1779E /* signUpCell.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D288EF0B2672F8540073F8A8 /* Alphametrica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D288EF202672F8560073F8A8 /* Build configuration list for PBXNativeTarget "Alphametrica" */;
+			buildPhases = (
+				D288EF082672F8540073F8A8 /* Sources */,
+				D288EF092672F8540073F8A8 /* Frameworks */,
+				D288EF0A2672F8540073F8A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alphametrica;
+			productName = Alphametrica;
+			productReference = D288EF0C2672F8540073F8A8 /* Alphametrica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D288EF042672F8540073F8A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D288EF0B2672F8540073F8A8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = D288EF072672F8540073F8A8 /* Build configuration list for PBXProject "Alphametrica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D288EF032672F8540073F8A8;
+			productRefGroup = D288EF0D2672F8540073F8A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D288EF0B2672F8540073F8A8 /* Alphametrica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D288EF0A2672F8540073F8A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D203549426739FCD00B1779E /* Lato-Bold.ttf in Resources */,
+				D288EF1C2672F8560073F8A8 /* LaunchScreen.storyboard in Resources */,
+				D288EF6A26731BBB0073F8A8 /* Roboto-Regular.ttf in Resources */,
+				D288EF3D267308CA0073F8A8 /* Lato-Regular.ttf in Resources */,
+				D288EF192672F8560073F8A8 /* Assets.xcassets in Resources */,
+				D288EF5226730D000073F8A8 /* Merriweather-Regular.ttf in Resources */,
+				D20354962673A3FF00B1779E /* Roboto-Bold.ttf in Resources */,
+				D288EF172672F8540073F8A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D288EF082672F8540073F8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D288EF142672F8540073F8A8 /* SplashVC.swift in Sources */,
+				D288EF102672F8540073F8A8 /* AppDelegate.swift in Sources */,
+				D20354982673BE2600B1779E /* signUpCell.swift in Sources */,
+				D25613C02674A7720058AEEB /* HomeVC.swift in Sources */,
+				D288EF122672F8540073F8A8 /* SceneDelegate.swift in Sources */,
+				D288EF4626730A400073F8A8 /* Extension.swift in Sources */,
+				D288EF7B267355EA0073F8A8 /* SignUpVC.swift in Sources */,
+				D25613BD26749BC30058AEEB /* Validation.swift in Sources */,
+				D288EF782673242E0073F8A8 /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D288EF152672F8540073F8A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D288EF162672F8540073F8A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D288EF1A2672F8560073F8A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D288EF1B2672F8560073F8A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D288EF1E2672F8560073F8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D288EF1F2672F8560073F8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D288EF212672F8560073F8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5HHC59PB9;
+				INFOPLIST_FILE = Alphametrica/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.com.ios.Alphametrica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D288EF222672F8560073F8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5HHC59PB9;
+				INFOPLIST_FILE = Alphametrica/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.com.ios.Alphametrica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D288EF072672F8540073F8A8 /* Build configuration list for PBXProject "Alphametrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D288EF1E2672F8560073F8A8 /* Debug */,
+				D288EF1F2672F8560073F8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D288EF202672F8560073F8A8 /* Build configuration list for PBXNativeTarget "Alphametrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D288EF212672F8560073F8A8 /* Debug */,
+				D288EF222672F8560073F8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D288EF042672F8540073F8A8 /* Project object */;
+}
